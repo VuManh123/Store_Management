@@ -67,7 +67,7 @@ const Hero = () => {
                     >
                         <Link
                             to="/register"
-                            className="group relative px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl text-lg font-semibold transition-all duration-300 hover:from-indigo-700 hover:to-purple-700 hover:scale-105 hover:shadow-xl inline-flex items-center"
+                            className="group relative px-8 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-red-400 rounded-xl text-lg font-semibold transition-all duration-300 hover:from-indigo-700 hover:to-purple-700 hover:scale-105 hover:shadow-xl inline-flex items-center"
                         >
                             Bắt đầu miễn phí
                             <motion.div
