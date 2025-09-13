@@ -73,24 +73,6 @@ const Login = () => {
         }
     };
 
-    const socialLogins = [
-        {
-            name: "Google",
-            icon: "🔍",
-            color: "hover:bg-red-50 hover:border-red-200 hover:text-red-600"
-        },
-        {
-            name: "Facebook",
-            icon: "📘",
-            color: "hover:bg-blue-50 hover:border-blue-200 hover:text-blue-600"
-        },
-        {
-            name: "Apple",
-            icon: "🍎",
-            color: "hover:bg-gray-50 hover:border-gray-200 hover:text-gray-600"
-        }
-    ];
-
     return (
         <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-purple-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
             {/* Background decorations */}
@@ -113,7 +95,7 @@ const Login = () => {
                             whileHover={{ scale: 1.05 }}
                             className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
                         >
-                            StoreManager
+                            Hương Nếp
                         </motion.div>
                     </Link>
                     
@@ -257,7 +239,7 @@ const Login = () => {
                     </form>
 
                     {/* Divider */}
-                    <div className="mt-8">
+                    {/* <div className="mt-8">
                         <div className="relative">
                             <div className="absolute inset-0 flex items-center">
                                 <div className="w-full border-t border-gray-300" />
@@ -266,10 +248,10 @@ const Login = () => {
                                 <span className="px-2 bg-white text-gray-500">Hoặc đăng nhập với</span>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* Social Login */}
-                    <div className="mt-6">
+                    {/* <div className="mt-6">
                         <div className="grid grid-cols-3 gap-3">
                             {socialLogins.map((social) => (
                                 <motion.button
@@ -282,7 +264,7 @@ const Login = () => {
                                 </motion.button>
                             ))}
                         </div>
-                    </div>
+                    </div> */}
                 </motion.div>
 
                 {/* Sign Up Link */}

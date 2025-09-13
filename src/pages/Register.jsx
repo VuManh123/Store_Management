@@ -139,7 +139,7 @@ const Register = () => {
                 <div className="absolute top-1/2 left-1/2 w-80 h-80 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
             </div>
 
-            <div className="relative max-w-md w-full space-y-8">
+            <div className="relative mt-10 max-w-md w-full space-y-8">
                 {/* Header */}
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
@@ -147,15 +147,7 @@ const Register = () => {
                     transition={{ duration: 0.8 }}
                     className="text-center"
                 >
-                    <Link to="/" className="inline-block mb-8">
-                        <motion.div
-                            whileHover={{ scale: 1.05 }}
-                            className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
-                        >
-                            StoreManager
-                        </motion.div>
-                    </Link>
-                    
+                    {/* Logo */}          
                     <h2 className="text-3xl font-bold text-gray-900 mb-2">
                         Tạo tài khoản mới
                     </h2>
